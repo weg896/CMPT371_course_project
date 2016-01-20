@@ -1,5 +1,5 @@
-# CMPT371_course_project
-A cmpt371 course project (Nutristep Survey Android Application)
+# Nutristep Survey Android Application
+Nutristep Survey Android Application is a cmpt371 course project
 
 Milestone 2: https://github.com/AuntEight/somethingtest (my other github account, Deprecated)
 
