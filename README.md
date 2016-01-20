@@ -14,8 +14,8 @@ Milestone 2: https://github.com/AuntEight/somethingtest (my other github account
 
 ### Screen Shot
 
-<img src="./screenShot/2014_1_survey_1" alt="preview">
-<img src="./screenShot/2014_1_survey_2" alt="preview">
+<img src="./screenShot/2014_1_survey_1.png" alt="preview">
+<img src="./screenShot/2014_1_survey_2.png" alt="preview">
 
 -------------------------------------------------------------
 
