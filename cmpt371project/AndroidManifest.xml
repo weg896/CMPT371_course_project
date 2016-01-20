@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cmpt371project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk 
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:debuggable="true">
+        <activity
+            android:name="com.example.cmpt371project.Login"
+            android:label="@string/app_name" >
+            <intent-filter> 
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.admin"
+            android:label="@string/admin" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.childrenAtLocation"
+            android:label="@string/children_at_location" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.childrenEdit"
+            android:label="@string/children_edit" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.childrenList"
+            android:label="@string/children_list" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.childrenOption"
+            android:label="@string/children_option" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.locationList"
+            android:label="@string/location_list" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.locationEdit"
+            android:label="@string/location_edit" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.researcher"
+            android:label="@string/researcher_start" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.researcherEdit"
+            android:label="@string/researcher_edit" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.researcherList"
+            android:label="@string/researcher_list" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.researcherOption"
+            android:label="@string/researcher_option" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.survey"
+            android:label="@string/survey" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.surveyFinish"
+            android:label="@string/survey_finish" >
+            
+        </activity><activity
+            android:name="com.example.cmpt371project.OwnerActivity"
+            android:label="@string/OwnerActivty" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.OwnerResearcherList"
+            android:label="@string/OwnerResearcherList" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.OwnerResearcherEdit"
+            android:label="@string/OwnerResearcherEdit" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.surveyResult"
+            android:label="@string/surveyResult" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.surveyForAChildren"
+            android:label="@string/survey_for_child" >
+        </activity>
+        <activity
+            android:name="com.example.cmpt371project.surveyDetail"
+            android:label="@string/surveyDetail" >
+        </activity>        
+
+        <receiver android:name=".YourBroadCastReceiverName" android:exported="true"></receiver>
+    </application>
+
+</manifest>

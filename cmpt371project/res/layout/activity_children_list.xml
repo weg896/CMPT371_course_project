@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="1" 
+        android:columnCount="2"
+        >
+
+        <Button
+            android:id="@+id/alCh_loca_but"
+            android:layout_width="match_parent"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:text="@string/children_Location" />
+
+    </GridLayout>
+
+<ListView
+        android:id="@+id/alCh_chil_lst"
+        android:layout_width="fill_parent"  
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false"
+        android:smoothScrollbar="true" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:background="#565758"  
+    android:orientation="horizontal" >
+    
+    <SearchView  
+        android:id="@+id/actionbar_searchView"  
+        android:layout_width="0px"  
+        android:layout_height="match_parent"  
+        android:layout_weight="1"  
+        android:iconifiedByDefault="false"  
+        android:inputType="textFilter"  
+        android:queryHint="@string/searchbar_search" >  
+    </SearchView>  
+    <Button
+        android:id="@+id/actionbar_addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/searchbar_add" />
+  
+</LinearLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/edCh_save_but"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/children_edit_save" />
+
+        <Button
+            android:id="@+id/edCh_edit_but"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/children_edit_Edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edCh_firs_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/children_edit_firstName" />
+
+        <EditText
+            android:id="@+id/edCh_firs_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/children_edit_firstName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edCh_last_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/children_edit_lastName" />
+
+        <EditText
+            android:id="@+id/edCh_last_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/children_edit_lastName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edCh_birth_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/edCh_birth_lab" />
+
+        <EditText
+            android:id="@+id/edCh_birth_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:editable="false"
+            android:hint="@string/edCh_birth_txt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edCh_gender_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/children_edit_gender" />
+
+        <EditText
+            android:id="@+id/edCh_gender_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/children_edit_gender" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edCh_location_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/edCh_location_lab" />
+
+        <EditText
+            android:id="@+id/edCh_location_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/edCh_location_txt" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edCh_addr_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/children_edit_address" />
+
+        <EditText
+            android:id="@+id/edCh_addr_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/children_edit_address" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edCh_post_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/children_edit_PostalCode" />
+
+        <EditText
+            android:id="@+id/edCh_post_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/children_edit_PostalCode" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edCh_phon_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/phone_not_option" />
+
+        <EditText
+            android:id="@+id/edCh_phon_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/phone_not_option" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edCh_Remo_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/children_edit_Remove" />
+    
+    <Button
+        android:id="@+id/edCh_Survey_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/children_option_takeSurvey" />
+        
+    <Button
+        android:id="@+id/edCh_Stats_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/children_option_viewStats" />
+
+</LinearLayout>

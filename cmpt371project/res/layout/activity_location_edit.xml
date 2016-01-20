@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/edLo_save_but"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/children_edit_save" />
+
+        <Button
+            android:id="@+id/edLo_edit_but"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/children_edit_Edit" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edLo_loca_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/location_Name" />
+
+        <EditText
+            android:id="@+id/edLo_loca_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/location_Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edLo_addr_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/location_Address_Line1" />
+
+        <EditText
+            android:id="@+id/edLo_addr_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/location_Address_Line1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edLo_phon_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/phoneNumber"/>
+
+        <EditText
+            android:id="@+id/edLo_phon_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/phoneNumber" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/edLo_descript_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dip"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="@string/description" />
+
+        <EditText
+            android:id="@+id/edLo_descript_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/description" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edLo_Remo_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/children_edit_Remove" />
+
+    <Button
+        android:id="@+id/edLo_ViewChildren_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location_ViewChildren" />
+
+</LinearLayout>

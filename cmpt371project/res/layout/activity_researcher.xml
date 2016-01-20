@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="5" >
+
+    <Button
+        android:id="@+id/stRe_stats_but"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dip"
+        android:layout_marginLeft="10dip"
+        android:layout_row="1"
+        android:text="@string/admin_Stats" />
+
+    <Button
+        android:id="@+id/stRe_chLa_but"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:layout_marginLeft="10dip"
+        android:layout_row="2"
+        android:text="@string/admin_ChooseLanguage" />
+
+    <Button
+        android:id="@+id/stRe_loca_but"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:layout_row="2"
+        android:text="@string/admin_Location" />
+
+    <Button
+        android:id="@+id/stRe_update_but"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:layout_marginLeft="10dip"
+        android:layout_row="3"
+        android:text="@string/admin_Update" />
+
+    <Button
+        android:id="@+id/stRe_logO_but"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:layout_row="3"
+        android:text="@string/admin_Logout" />
+
+    <Button
+        android:id="@+id/stRe_child_but"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="45dip"
+        android:layout_row="1"
+        android:text="@string/admin_Children" />
+
+</GridLayout>

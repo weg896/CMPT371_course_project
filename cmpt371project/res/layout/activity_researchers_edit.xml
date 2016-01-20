@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="45dp"  
+        android:orientation="horizontal"  
+        android:weightSum="2" >  
+  
+        <Button  
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/edRe_save_but"
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"  
+            android:layout_weight="1"
+            android:text="@string/children_edit_save"/>  
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/edRe_Edit_but"
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"  
+            android:layout_weight="1"
+            android:text="@string/children_edit_Edit"/>
+    </LinearLayout>  
+    
+<LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:orientation="horizontal"  
+        android:weightSum="2" >  
+  
+        <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"  
+            android:layout_marginLeft="35dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:id="@+id/edRe_firstname_lab"
+			android:text="@string/children_edit_firstName"/>  
+        <EditText  
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/edRe_firstname_txt"
+            android:hint="@string/children_edit_firstName"
+            />
+    </LinearLayout>  
+    
+<LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:orientation="horizontal"  
+        android:weightSum="2" >  
+  
+        <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"  
+            android:layout_marginLeft="35dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:id="@+id/edRe_lastname_lab"
+			android:text="@string/children_edit_lastName"/>  
+        <EditText  
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/edRe_lastname_txt"
+            android:hint="@string/children_edit_lastName"
+            />
+    </LinearLayout>  
+    
+    
+<LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:orientation="horizontal"  
+        android:weightSum="2" >  
+  
+        <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"  
+            android:layout_marginLeft="35dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:id="@+id/edRe_phon_lab"
+			android:text="@string/children_edit_phone"/>  
+        <EditText  
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/edRe_phon_txt"
+            android:hint="@string/children_edit_phone"
+            />
+    </LinearLayout>
+    
+<LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:orientation="horizontal"  
+        android:weightSum="2" >  
+  
+        <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"  
+            android:layout_marginLeft="35dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:id="@+id/edRe_userName_lab"
+			android:text="@string/children_edit_userName"/>  
+        <EditText  
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/edRe_userName_txt"
+            android:hint="@string/children_edit_userName"
+            />
+    </LinearLayout>
+    
+<LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:orientation="horizontal"  
+        android:weightSum="2" >  
+  
+        <TextView  
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"  
+            android:layout_marginLeft="35dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:id="@+id/edRe_password_lab"
+			android:text="@string/children_edit_password"/>  
+        <EditText  
+            android:layout_width="wrap_content"  
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/edRe_password_txt"
+            android:inputType="textPassword"
+            android:hint="@string/children_edit_password"
+            />
+    </LinearLayout>
+
+<Button
+    android:id="@+id/edRe_Remo_but"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/children_edit_Remove" />
+    
+</LinearLayout>
